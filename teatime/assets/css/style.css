@@ -1,0 +1,128 @@
+/* STYLESHEET FOR TEA TIME */
+
+/* GENERAL STYLES */
+    body {
+        font-family: Merriweather;
+        color: #302E2B;
+        font-size: 11pt;
+        margin: 0;
+        padding: 0;
+    }
+
+/* IMAGES */
+    .two {
+        max-width: 200px;
+    }
+
+    .one {
+        max-width: 60px;
+    }
+
+/* CONTAINERS */
+
+    .container {
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .content {
+        max-width: 960px;
+        margin: auto;
+        position: relative;
+        bottom: 50%;
+    }
+
+    #landing {
+        background-color: #F4F1EA;
+    }
+
+    #herbal {
+        background-color: #F2D768;
+    }
+
+    #white {
+        background-color: #FFF;
+    }
+
+    #green {
+        background-color: #879F74;
+    }
+
+    #red {
+        background-color: #AD4E36;
+    }
+
+    #black {
+        background-color: #474543;
+    }
+
+    #puerh {
+        background-color: #323A2D;
+    }
+
+    #specialty {
+        background-color: #BC895B;
+    }
+
+    .footer {
+        background-color: #F4F1EA;
+    }   
+
+
+    /* LANDING */
+    .row {
+        text-align: center;
+    }
+
+    .item {
+        display: inline-block;
+        min-width: 100px;
+        padding: 15px; 
+        padding-bottom: 0px;
+        margin: 5px;
+    }
+
+    /* LOOSE LEAF */
+    .teastats {
+    }
+
+    .teainfo {
+    }   
+
+    /* SPECIALTY */
+    .specialty-content {
+    }
+
+    .specialty-item {
+    }   
+
+/* HEADERS */
+    .title {
+        font-family: Oswald;
+        text-transform: uppercase;
+        font-size: 48pt;
+        line-height: 56pt;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .subtitle {
+    }
+
+    .header {
+    }
+
+/* LINKS */
+    a.menu:LINK, a.menu:VISITED {
+        display: block;
+        color: #302E2B;
+        font-family: Oswald;
+        font-size: 14pt;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    a.menu:HOVER {
+        color: #44413D;
+    }
