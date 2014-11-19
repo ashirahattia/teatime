@@ -2,11 +2,11 @@
 
 /* GENERAL STYLES */
     body {
+        margin: 0;
+        padding: 0;
         font-family: Merriweather;
         color: #302E2B;
         font-size: 11pt;
-        margin: 0;
-        padding: 0;
     }
 
 /* IMAGES */
@@ -15,21 +15,14 @@
     }
 
     .one {
-        max-width: 60px;
+        max-width: 100px;
     }
 
 /* CONTAINERS */
 
     .container {
         width: 100%;
-        min-height: 100%;
-    }
-
-    .content {
-        max-width: 960px;
-        margin: auto;
-        position: relative;
-        bottom: 50%;
+        height: 100%;
     }
 
     #landing {
@@ -61,7 +54,7 @@
     }
 
     #specialty {
-        background-color: #BC895B;
+        background-color: #C69060;
     }
 
     .footer {
@@ -71,18 +64,21 @@
 
     /* LANDING */
     .row {
-        text-align: center;
     }
 
     .item {
         display: inline-block;
         min-width: 100px;
-        padding: 15px; 
-        padding-bottom: 0px;
-        margin: 5px;
-    }
+        margin: 20px;
+    }   
 
     /* LOOSE LEAF */
+    .content {
+        position: relative;
+        top: 30%;
+        text-align: center;
+    }
+
     .teastats {
     }
 
@@ -98,12 +94,6 @@
 
 /* HEADERS */
     .title {
-        font-family: Oswald;
-        text-transform: uppercase;
-        font-size: 48pt;
-        line-height: 56pt;
-        text-align: center;
-        padding-bottom: 20px;
     }
 
     .subtitle {
@@ -113,16 +103,17 @@
     }
 
 /* LINKS */
-    a.menu:LINK, a.menu:VISITED {
-        display: block;
-        color: #302E2B;
-        font-family: Oswald;
-        font-size: 14pt;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 5px;
-    }
 
+    a.menu:LINK, a.menu:VISITED {
+        font-family: Oswald;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+        color: #302E2B;
+        padding: 5px;
+        font-size: 16pt;
+    }
+    
     a.menu:HOVER {
-        color: #44413D;
+        opacity: 0.5;
     }
