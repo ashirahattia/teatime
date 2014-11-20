@@ -1,96 +1,75 @@
 /* STYLESHEET FOR TEA TIME */
 
 /* GENERAL STYLES */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Merriweather;
-        color: #302E2B;
-        font-size: 11pt;
-    }
+html {
+    height: 100%;
+}
 
-    /* IMAGES */
-    .two {
-        max-width: 200px;
-    }
+body {
+    color: #302E2B;
+    font-size: 11pt;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 0;
+    font-family: Merriweather;
+}
 
-    .one {
-        max-width: 60px;
-    }
+ /* IMAGES */
+.two {
+    max-width: 200px;
+}
 
-    /* HEADERS */
-    .title {
-        font-family: Oswald;
-        text-transform: uppercase;
-        font-size: 56pt;
-        line-height: 60pt; 
-    }
+.one {
+    max-width: 60px;
+}
 
-    .subtitle {
-    }
+/* HEADERS */
+.title {
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 56pt;
+    line-height: 60pt; 
+    margin-bottom: 10px;
+}
 
-    .header {
-    }
+.subtitle {
+}
 
-    /* LINKS */
-    a.menu:LINK, a.menu:VISITED {
-        font-family: Oswald;
-        text-transform: uppercase;
-        display: block;
-        text-decoration: none;
-        color: #302E2B;
-        padding: 5px;
-        font-size: 14pt;
-    }
+.header {
+}
+
+/* LINKS */
+a.menu:LINK, a.menu:VISITED {
+    font-family: Oswald;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: #302E2B;
+    padding: 5px;
+    font-size: 14pt;
+}
     
-    a.menu:HOVER {
-        opacity: 0.5;
-    }
-
-/* CONTENT WRAPPERS */
-
-    .content {
-        width: 960px;
-        text-align: center;
-        margin: 100px;
-    }
-
-    /* LANDING */
-    .row {
-    }
-
-    .item {
-        display: inline-block;
-        min-width: 100px;
-        margin: 15px;
-    }   
-
-    /* LOOSE LEAF */
-
-    .teastats {
-    }
-
-    .teainfo {
-    }   
-
-    /* SPECIALTY */
-    .specialty-content {
-    }
-
-    .specialty-item {
-    }   
+a.menu:HOVER {
+    opacity: 0.5;
+}
 
 /* CONTAINERS */
-    .container {
-        width: 100%;
-        min-height: 100%;
-        margin: 0
-    }
-
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+    /* IDS FOR NAVIGATION 
+    AND BACKGROUND COLOR */
     #landing {
         background-color: #F4F1EA;
     }
-
     #herbal {
         background-color: #F2D768;
     }
@@ -103,7 +82,7 @@
         background-color: #879F74;
     }
 
-    #red {
+    #rooibos {
         background-color: #AD4E36;
     }
 
@@ -119,8 +98,22 @@
         background-color: #C69060;
     }
 
-    .footer {
+    #footer {
         background-color: #F4F1EA;
+    }
+
+/* CONTENT */
+
+    /* LANDING */
+    .row {
+    }
+
+    .item {
+        display: inline-block;
+        min-width: 100px;
+        margin: 15px;
     }   
+
+   
 
 
