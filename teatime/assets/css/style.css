@@ -9,20 +9,82 @@
         font-size: 11pt;
     }
 
-/* IMAGES */
+    /* IMAGES */
     .two {
         max-width: 200px;
     }
 
     .one {
-        max-width: 100px;
+        max-width: 60px;
     }
 
-/* CONTAINERS */
+    /* HEADERS */
+    .title {
+        font-family: Oswald;
+        text-transform: uppercase;
+        font-size: 56pt;
+        line-height: 60pt; 
+    }
 
+    .subtitle {
+    }
+
+    .header {
+    }
+
+    /* LINKS */
+    a.menu:LINK, a.menu:VISITED {
+        font-family: Oswald;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+        color: #302E2B;
+        padding: 5px;
+        font-size: 14pt;
+    }
+    
+    a.menu:HOVER {
+        opacity: 0.5;
+    }
+
+/* CONTENT WRAPPERS */
+
+    .content {
+        width: 960px;
+        text-align: center;
+        margin: 100px;
+    }
+
+    /* LANDING */
+    .row {
+    }
+
+    .item {
+        display: inline-block;
+        min-width: 100px;
+        margin: 15px;
+    }   
+
+    /* LOOSE LEAF */
+
+    .teastats {
+    }
+
+    .teainfo {
+    }   
+
+    /* SPECIALTY */
+    .specialty-content {
+    }
+
+    .specialty-item {
+    }   
+
+/* CONTAINERS */
     .container {
         width: 100%;
-        height: 100%;
+        min-height: 100%;
+        margin: 0
     }
 
     #landing {
@@ -62,58 +124,3 @@
     }   
 
 
-    /* LANDING */
-    .row {
-    }
-
-    .item {
-        display: inline-block;
-        min-width: 100px;
-        margin: 20px;
-    }   
-
-    /* LOOSE LEAF */
-    .content {
-        position: relative;
-        top: 30%;
-        text-align: center;
-    }
-
-    .teastats {
-    }
-
-    .teainfo {
-    }   
-
-    /* SPECIALTY */
-    .specialty-content {
-    }
-
-    .specialty-item {
-    }   
-
-/* HEADERS */
-    .title {
-    }
-
-    .subtitle {
-    }
-
-    .header {
-    }
-
-/* LINKS */
-
-    a.menu:LINK, a.menu:VISITED {
-        font-family: Oswald;
-        text-transform: uppercase;
-        display: block;
-        text-decoration: none;
-        color: #302E2B;
-        padding: 5px;
-        font-size: 16pt;
-    }
-    
-    a.menu:HOVER {
-        opacity: 0.5;
-    }
