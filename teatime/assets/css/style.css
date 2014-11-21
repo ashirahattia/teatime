@@ -25,19 +25,29 @@ body {
     max-width: 60px;
 }
 
+.special {
+    max-width: 120px;
+}
+
 /* HEADERS */
-.title {
+.title, .subtitle, .header {
     font-family: Oswald;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+}
+
+.title {
     font-size: 56pt;
     line-height: 60pt; 
     margin-bottom: 10px;
 }
 
 .subtitle {
+    font-size: 36pt;
 }
 
 .header {
+    font-size: 18pt;
+    margin-bottom: -10px;
 }
 
 /* LINKS */
@@ -60,16 +70,21 @@ a.menu:HOVER {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
 }
     /* IDS FOR NAVIGATION 
     AND BACKGROUND COLOR */
     #landing {
         background-color: #F4F1EA;
+        flex-flow: column;
     }
+
+    #green, #rooibos, #black, #puerh {
+        color: #F4F1EA;
+    }
+
     #herbal {
         background-color: #F2D768;
     }
@@ -96,24 +111,49 @@ a.menu:HOVER {
 
     #specialty {
         background-color: #C69060;
+        flex-flow: column;
     }
 
-    #footer {
+    .footer {
         background-color: #F4F1EA;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 /* CONTENT */
 
     /* LANDING */
-    .row {
-    }
 
     .item {
         display: inline-block;
-        min-width: 100px;
+        min-width: 80px;
         margin: 15px;
     }   
 
-   
+    .teastats {
+        display: inline-block;
+        max-width: 200px;
+        padding: 15px;
+    }
+    
+    .teainfo {
+        display: inline-block;
+        max-width: 500px;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .specialty-row {
+        padding-top: 30px;
+    }
+
+    .specialty-item {
+        max-width: 200px;
+        padding: 20px;
+        display: inline-block;
+    }
 
 
