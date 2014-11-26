@@ -1,25 +1,23 @@
 $(document).ready(function(){
-	
-	// Question 4
-	// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
 
-	$("#link").click(function() {
- 		$("#modal-container").show();
-	});
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MODAL BOX" HERE
-	$("#submit").click(function() {
- 		$("#modal-container").hide();
-	});
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 500) {
+            $('#navigation').fadeIn(100);
+        } else {
+            $('#navigation').fadeOut(100);
+        }
+    });
 
-
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON CANCEL BUTTON FROM MODAL BOX" HERE
-	$("#cancel").click(function() {
- 		$("#modal-container").hide();
-	});
-	
-	// Question 5
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON MODAL OVERLAY" HERE
-	$("#modal-overlay").click(function() {
- 		$("#modal-container").hide();
-	});
+     $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+            scrollTop: target.offset().top
+         }, 1000);
+         return false;
+        }
+      }
+    });
 });
