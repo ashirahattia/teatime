@@ -17,7 +17,7 @@ body {
 }
 
  /* IMAGES */
-.two {
+.two, #two {
     max-width: 200px;
 }
 

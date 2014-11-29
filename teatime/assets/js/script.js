@@ -20,4 +20,9 @@ $(document).ready(function(){
         }
       }
     });
+
+    $('#two').hover(function() {
+        opacity:0.4;
+        filter:alpha(opacity=40);
+    });
 });
