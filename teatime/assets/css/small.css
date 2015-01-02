@@ -11,6 +11,7 @@ a.nav:LINK, a.nav:VISITED {
 }
 
 .container {
+	-webkit-flex-flow: column;
     flex-flow: column;
 }
 

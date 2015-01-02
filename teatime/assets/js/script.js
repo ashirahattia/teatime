@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 500) {
-            $('#navigation').fadeIn(100);
+            $('#navigation').fadeIn(300);
         } else {
-            $('#navigation').fadeOut(100);
+            $('#navigation').fadeOut(300);
         }
     });
 
@@ -19,10 +19,5 @@ $(document).ready(function(){
          return false;
         }
       }
-    });
-
-    $('#two').hover(function() {
-        opacity:0.4;
-        filter:alpha(opacity=40);
     });
 });
